@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="Stylesheet" type="text/css" href="/css/estilo.css">
+</head>
+
+<body id="pagina02">
+    <header id="service">
+        <nav>
+            <div class="nav-conteiner">
+                <a href="PaginaPrincipal.html"><img id="logo" src="/imagens/logoEmpresa.png" alt="Empresa"></a>
+                <ul>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="#">Laboratorios</a></li>
+                    <li><a href="#">Duvidas</a></li>
+                    <li><a href="SobreAEmpresa.html">Sobre a Empresa Jr</a></li>
+                    <li><a href="PaginaPrincipal.html">Faça seu Cadastro</a></li>
+                    <li><a href=""> Organizaçao de Eventos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <header id="quest">
+        <h3>Faça seu Cadastro</h3>
+        <form id="fomulario" method="POST" action="#">
+            <img src="">
+            <div id="Login">
+                <p>Nome:</p>
+                <input type="text" name="firstname" placeholder="Nome">
+
+                <p>E-mail para contato:</p>
+                <input type="email" name="email" placeholder="email">
+
+                <p>Senha:</p>
+                <input type="password" name="senha" placeholder="senha">
+
+
+
+                <input type="submit" value="Enviar" placeholder="Enviar">
+                <br>
+                <p><a href="#">Ja tem cadastro?</a></p>
+                <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+                <script>
+                    $(document).ready(function() {
+                        $("#ler-pagina").click(function() {
+                            $(function() {
+                                $("#conteudo-pagina-lida").load("cadastro-existente.html");
+                            });
+                        })
+                    });
+                </script>
+            </div>
+        </form>
+    </header>
+
+</body>
+
+</html>
