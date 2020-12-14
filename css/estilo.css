@@ -23,7 +23,7 @@
         font-size: 60px;
     }
     
-    .conteiner {
+    .container {
         max-width: 1200px;
         width: 100%;
     }
@@ -53,7 +53,7 @@
         display: block;
     }
     
-    .nav-conteiner {
+    .nav-container {
         max-width: 1200px;
         position: relative;
         margin-right: auto;
@@ -70,7 +70,7 @@
         float: initial 10px;
     }
     
-    .nav-conteiner ul {
+    .nav-container ul {
         margin-left: 150px;
         float: right;
         height: 100px;
@@ -78,19 +78,19 @@
         margin: 0px;
     }
     
-    .nav-conteiner li {
+    .nav-container li {
         list-style: none;
         float: left;
         margin: 0 10px;
     }
     
-    .nav-conteiner li a {
+    .nav-container li a {
         text-decoration: none;
         color: #666;
         transition: .5s;
     }
     
-    .nav-conteiner li a:hover {
+    .nav-container li a:hover {
         color: blue;
     }
     
